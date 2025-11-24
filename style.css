@@ -23,19 +23,18 @@ header{
   margin: 10px;
 }
 header nav{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
+  position: absolute
+  right: 0;
+  display: inline-block;
   margin-left: auto;
   padding: 10px 15px;
   font-size: 18px;
   font-weight: 500;
-  position: absolute;
-  right: 20px;
   top: 20px;
 }
 header nav a{
   color:#ffffff;
+  margin-right: 20px;
 }
 header nav a:hover{
   color:#3b82f6;
@@ -165,4 +164,5 @@ a.tn{
 footer{
   text-align: center;
   color: #ffffff;
+
 }

@@ -23,9 +23,9 @@ header{
   margin: 10px;
 }
 header nav{
-  position: absolute
-  right: 0;
   display: inline-block;
+  position: absolute;
+  right: 0;
   margin-left: auto;
   padding: 10px 15px;
   font-size: 18px;
@@ -166,3 +166,4 @@ footer{
   color: #ffffff;
 
 }
+
